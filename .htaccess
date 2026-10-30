@@ -1,0 +1,5 @@
+# If the whole project folder is the web root (some shared hosts), block sensitive files.
+Options -Indexes
+<FilesMatch "(^\.|\.(sql|md|csv|log|ini|json|lock)$)">
+    Require all denied
+</FilesMatch>

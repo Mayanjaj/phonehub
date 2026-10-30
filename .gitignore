@@ -1,0 +1,10 @@
+config/config.php
+public/uploads/*
+!public/uploads/.gitkeep
+*.log
+.DS_Store
+
+storage/logs/*
+storage/mail_outbox/*
+!storage/logs/.gitkeep
+!storage/mail_outbox/.gitkeep
